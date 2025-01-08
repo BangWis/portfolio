@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>แบบฟอร์มรับสมัครศิษย์เก่า IT + IS</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style5.css">
 </head>
 <body>
     <div class="container">
@@ -13,19 +13,14 @@
             <p>กรุณากรอกข้อมูลให้ครบถ้วนและถูกต้อง</p>
         </header>
         <form action="#" method="post" enctype="multipart/form-data" class="registration-form">
-            <!-- ชื่อ-สกุล -->
             <div class="form-group">
                 <label for="fullName">ชื่อ-สกุล:</label>
                 <input type="text" id="fullName" name="fullName" placeholder="ระบุชื่อ-สกุลของคุณ" required>
             </div>
-
-            <!-- รหัสนักศึกษา -->
             <div class="form-group">
                 <label for="studentID">รหัสนักศึกษา:</label>
                 <input type="text" id="studentID" name="studentID" placeholder="ระบุรหัสนักศึกษา" required>
             </div>
-
-            <!-- เพศ -->
             <div class="form-group">
                 <label for="gender">เพศ:</label>
                 <select id="gender" name="gender" required>
@@ -34,32 +29,22 @@
                     <option value="other">อื่นๆ</option>
                 </select>
             </div>
-
-            <!-- ปีการศึกษา -->
             <div class="form-group">
                 <label for="admissionYear">ปีการศึกษาที่เข้าศึกษา:</label>
                 <input type="number" id="admissionYear" name="admissionYear" placeholder="ระบุปีการศึกษา" required>
             </div>
-
-            <!-- ที่อยู่ -->
             <div class="form-group">
                 <label for="address">ที่อยู่:</label>
                 <textarea id="address" name="address" rows="4" placeholder="ระบุที่อยู่ของคุณ" required></textarea>
             </div>
-
-            <!-- อีเมล -->
             <div class="form-group">
                 <label for="email">อีเมล:</label>
                 <input type="email" id="email" name="email" placeholder="example@email.com" required>
             </div>
-
-            <!-- เบอร์โทร -->
             <div class="form-group">
                 <label for="phone">เบอร์โทรศัพท์:</label>
                 <input type="tel" id="phone" name="phone" placeholder="ระบุเบอร์โทรศัพท์" required>
             </div>
-
-            <!-- ชื่อหลักสูตร -->
             <div class="form-group">
                 <label for="program">ชื่อหลักสูตร:</label>
                 <select id="program" name="program" required>
@@ -67,20 +52,14 @@
                     <option value="is">IS</option>
                 </select>
             </div>
-
-            <!-- อาชีพปัจจุบัน -->
             <div class="form-group">
                 <label for="currentJob">อาชีพปัจจุบัน:</label>
                 <input type="text" id="currentJob" name="currentJob" placeholder="ระบุอาชีพปัจจุบัน" required>
             </div>
-
-            <!-- สถานที่ทำงาน -->
             <div class="form-group">
                 <label for="workPlace">สถานที่ทำงาน:</label>
                 <input type="text" id="workPlace" name="workPlace" placeholder="ระบุชื่อบริษัทและที่อยู่" required>
             </div>
-
-            <!-- ประเภทงาน -->
             <div class="form-group">
                 <label for="jobType">ประเภทงานที่ทำ:</label>
                 <select id="jobType" name="jobType" required>
@@ -90,21 +69,20 @@
                     <option value="digitalMarketing">Digital Marketing</option>
                 </select>
             </div>
-
-            <!-- รูปถ่าย -->
             <div class="form-group">
                 <label for="photo">อัปโหลดรูปถ่าย:</label>
                 <input type="file" id="photo" name="photo" accept="image/*" required>
             </div>
-
-            <!-- ปุ่มส่งข้อมูล -->
             <div class="form-actions">
                 <button type="submit">ส่งข้อมูล</button>
             </div>
         </form>
     </div>
+    <div class="form-actions">
+        <button onclick="window.location.href='index.html'">Back</button>
+    </div>
     <footer>
-        <p>&copy; 6640011058</p>
+        <p>&copy; 2025 สวิส บุตรรักษ์</p>
     </footer>   
 </body>
 </html>
